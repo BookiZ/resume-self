@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+ul,li{
+    list-style: none;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+  }
+.main{
+  
+    max-width:1100px;
+    
+    margin:0 auto;
+    margin-bottom: 30px;
+   
+}
+.main .resume{
+    padding: 0 70px;
+}
+.left{
+    background: #052a46;
+   width: 34%;
+    float: left;
+    color: white;
+}
+.leftInformation{
+    padding: 0 20px;
+}
+.left .avatar {
+    margin: 0 auto;
+    text-align: center;
+}
+.left .avatarInformation{
+    padding: 60px 0;
+}
+.left .baseBar{
+   
+    line-height: 45px;
+    position: relative;
+    margin: 20px 0;
+}
+.left .triangle{
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 16px solid transparent;
+        border-right: 16px solid transparent;
+        
+        left: 30px;
+   
+}
+.left  h2{
+    padding-left: 10px;
+    font-weight: normal;
+}
+.left h3{
+    font-weight: normal;
+}
+.left  dl{
+    padding: 20px 0;
+    
+}
+.left .base .baseText dl dt{
+  width: 10%;
+    float: left;
+    margin: 10px 0;
+}
+.left .base .baseText dl dd{
+  width: 90%;
+    float: left; 
+    margin: 10px 0;
+}
+.left .skill .skillBar dl{
+    box-sizing: border-box;
+}
+.left .skill .skillBar dt{
+    background: #f4f4f4;
+    height: 6px;
+    width: 65%;
+    float: left;
+    margin: 17px 10px 10px 0;
+   
+}
+.left .skill .skillBar dt .inner{
+    background: #329cec;
+    width: 70%;
+   height: 100%;
+}
+.left .skill .skillBar dd{
+    width: 30%;
+    float: right;
+    line-height: 40px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.left .interest .hobby{
+    
+}
+.left .interest .show-wrapper{
+    box-sizing: border-box;
+    width: 49%;
+    text-align: center;
+    float: left;
+    margin: 8px 0;
+}
+.left .interest .hobbyShow{
+    border: 1px solid #697f90;
+    float: left;
+    
+   padding: 20px;
+   border-radius: 2px;
+   margin: 0 50px 0 35px;
+   
+   
+}
+.left .interest svg{
+    height: 30px;
+    width: 30px;
+
+}
+.left .interest .show-wrapper span{
+    display: inline-block;
+}
+.right{
+   width: 66%;
+    background: #f1e8e8;
+    float: left;
+    color: rgb(135, 134, 134);
+    
+}
+.right .rightInformation{
+    padding: 0 40px;
+}
+
+.right .name h1{
+    font-weight: normal;
+    font-family: "Tahoma";
+    margin-bottom: 10px;
+}
+.rightInformation>div{
+    margin: 50px 0 70px 0;
+}
+.right  .title span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.right .jobidea .title{
+    line-height: 40px;
+}
+.right  .title .titleBar{
+    background: #0b70bd;
+    height: 3px;
+    float: right;
+    width: 70%;
+    margin: 19px 0;
+}
+.right .educationbackground .backgroundInformation span{
+    display: inline-block;
+    padding-right: 60px;
+    line-height: 35px;
+    color: rgb(11,112,189);
+}
+.right .workexercise .exerciseInformation span{
+    display: inline-block;
+    padding-right: 60px;
+    line-height: 35px;
+    color: rgb(11,112,189);
+}
+.right .workexercise .exerciseInformation p{
+    padding: 20px 0 10px 0;;
+}
+.right ul li{
+    line-height: 30px;
+    list-style: square inside;
+}
+.right .workexercise .exerciseInformation>div{
+    margin-bottom: 20px;
+}
+.right .evaluation p{
+    line-height: 1.6;
+
+}
